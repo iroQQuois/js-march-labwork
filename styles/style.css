@@ -1,0 +1,35 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    height: auto;
+    background-color: #0a090e;
+    color: white;
+    font-weight: bold;
+}
+
+.main__wrapper {
+    padding: 10px;
+}
+
+.images__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid #f1f159;
+    width: 90%;
+    min-height: 700px;
+    margin-left: 10px;
+}
+
+.image__container {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.image {
+    max-width: 700px;
+    max-height: 700px;
+}
